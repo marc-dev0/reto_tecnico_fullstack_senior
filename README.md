@@ -158,12 +158,12 @@ Response:
 
 ### Pantallas requeridas:
 
-1. **Login**
+1. **Login** (Opcional pero valorado)
 2. **Listado de Pedidos**
 3. **Crear Pedido**
-4. **Editar Pedido**
-5. **Eliminar Pedido**
-6. **Menú de navegación**
+4. **Editar Pedido** (Opcional pero valorado)
+5. **Eliminar Pedido** (Opcional pero valorado)
+6. **Menú de navegación** (Opcional pero valorado)
 
 ---
 
