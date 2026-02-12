@@ -130,19 +130,13 @@ Response:
 - **Arquitectura limpia**
 - Principios **SOLID**
 - Inyección de dependencias
-- Manejo global de excepciones
-- Logging estructurado
+- Manejo global de excepciones (Opcional)
+- Logging estructurado (Opcional)
 
 ### 🔐 Seguridad
 
 - JWT Bearer
 - Authorization Middleware
-
-### 🚦 Resiliencia
-
-- **Rate Limiting**
-- **Circuit Breaker**
-- **Retry Policies**
 
 *(Se puede usar Polly o mecanismos nativos)*
 
@@ -200,10 +194,8 @@ CREATE TABLE Pedidos (
 - Autenticación operativa
 - Validaciones de negocio
 
-### 🔐 Seguridad y Resiliencia (20%)
+### 🔐 Seguridad (20%)
 - JWT
-- Rate Limiting
-- Circuit Breaker
 
 ### 🎨 Frontend (20%)
 - UX clara
