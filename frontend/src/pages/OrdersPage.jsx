@@ -22,7 +22,10 @@ import { useAuth } from '../context/AuthContext';
 
 const orderSchema = z.object({
     numeroPedido: z.string().min(1, 'El número de pedido es obligatorio').max(50, 'Máximo 50 caracteres'),
-    cliente: z.string().min(3, 'El nombre del cliente debe tener al menos 3 caracteres').max(150, 'Máximo 150 caracteres'),
+    cliente: z.string()
+        .min(3, 'El nombre del cliente debe tener al menos 3 caracteres')
+        .max(150, 'Máximo 150 caracteres')
+        .regex(/^[^0-9]*$/, 'El nombre no debe contener números'),
     total: z.number({ invalid_type_error: 'El total debe ser un número' }).min(0.01, 'El total debe ser mayor a 0'),
 });
 

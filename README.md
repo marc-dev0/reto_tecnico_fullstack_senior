@@ -52,5 +52,5 @@ npm run dev
 ```
 
 **Acceso:**
-- App: http://localhost:5173
+- App: http://localhost:80
 - Credenciales: `user@email.com` / `123456`
